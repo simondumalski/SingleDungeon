@@ -1,0 +1,23 @@
+# DevRoom Skills Test - SingleDungeons by Saymoan
+single-dungeon:
+  # The start location of the dungeon
+  start-location:
+    world: 'world'
+    x: 0
+    y: -60
+    z: 0
+  # Commands that will be disabled while in a dungeon
+  # It is recommended to add teleporation commands to this list to prevent players from leaving the dungeon
+  disabled-commands:
+    - 'spawn'
+    - 'tpa'
+    - 'tpahere'
+    - 'warp'
+
+# PostgreSQL Settings
+sql:
+  host: 'localhost'
+  port: 5432
+  database: 'singledungeon'
+  user: 'singledungeon'
+  pass: 'password'

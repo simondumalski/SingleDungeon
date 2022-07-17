@@ -1,0 +1,14 @@
+name: SingleDungeon
+version: '${project.version}'
+description: '${project.description}'
+authors: [ Saymoan ]
+api-version: 1.18
+main: me.simondumalski.singledungeon.Main
+prefix: SingleDungeon
+commands:
+  start:
+    description: Starts a dungeon
+permissions:
+  singledungeon.start:
+    description: Allows players to start a dungeon
+    default: true
